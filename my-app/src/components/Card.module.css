@@ -1,0 +1,28 @@
+.container{
+    width:300px;
+    background-color: rgb(196, 193, 190);
+    height: 400px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    border-radius: 25px;
+    
+}
+.container>img{
+    width:250px;
+    height:300px;
+    margin-left: 8%;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.container>h3{
+    margin-top: 8px;
+    color:rgb(100, 100, 100);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container>p{
+    margin-top: 5px;
+    color:rgb(65, 64, 64);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

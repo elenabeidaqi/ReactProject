@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:rgb(172, 170, 170) ;
+}
+.menu{
+    width:100%;
+    height:75px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    line-height:75px;
+    list-style: none;
+    margin-left: 10%;
+}
+.menu>nav{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+}
+.menu>nav>ul>li{
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifte;
+    
+}
+.menu>nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.logo>img{
+    width: 75px;
+    height:65px;
+    line-height:65px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
